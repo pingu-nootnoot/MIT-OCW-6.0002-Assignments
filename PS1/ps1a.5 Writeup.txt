@@ -1,0 +1,9 @@
+A.5
+1. Greedy is faster. Because it only considers one combination for the trip.
+2. Depends on the cows' weights and the sequence. Because it selects cows in sequence according to the dictionary, and fails to consider other combinations where cows are selected in other sequences.
+3. Yes. Because it considers all possible trips and selected the shortest trip.
+
+B.2
+1. The O(n) of partition problem is (2^n). Also, the times that a weight can be used is >= 0 and not definite. This will further increase the O(n) and complexity of the program.
+2. The weights only appear once; The sequence is not sorted. Sort the list, use list items more than 1 times until it exceeds the target weight.
+3. Depends on the sequence and how many times a weight can be used.
